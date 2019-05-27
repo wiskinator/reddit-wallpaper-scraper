@@ -1,0 +1,5 @@
+P="/usr/bin/env python"
+$P -m virtualenv .venv
+P=".venv/bin/python"
+$P -m pip install -r requirements.txt
+source .venv/bin/activate
